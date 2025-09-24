@@ -85,7 +85,7 @@ const Hero = () => {
                         </div>
                         <div className="view-cocktails">
                             <p className="subtitle">
-                                Every cocktail on our menu is a blend of premium ingredients, creative flair, and timeless recipies _ designed to delight your senses.
+                                Every cocktail on our menu is a blend of premium ingredients, creative flair, and timeless recipes — designed to delight your senses. 
                             </p>
                             <a href="#cocktails">View Cocktails</a>
                         </div>
@@ -94,8 +94,7 @@ const Hero = () => {
             </section>
 
             <div className="video absolute inset-0">
-                <video ref={videoRef} src="/videos/output.mp4" muted playsInline preload="auto">
-                </video>
+                <video ref={videoRef} src="/videos/output.mp4" muted playsInline preload="auto" />
             </div>
         </>
     )
